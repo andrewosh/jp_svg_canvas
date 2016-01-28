@@ -1,2 +1,2 @@
-ipywidgets>=4.0.2
+ipywidgets
 #traitlets>=4.0.0
