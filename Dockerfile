@@ -6,4 +6,4 @@ USER main
 
 RUN pip install -r $HOME/notebooks/requirements.txt
 RUN python $HOME/notebooks/setup.py install
-RUN jupyter nbextension enable --py --sys-prefix widgetsnbextension
+RUN jupyter nbextension enable widgetsnbextension
